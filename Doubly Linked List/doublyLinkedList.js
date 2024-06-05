@@ -75,10 +75,9 @@ class DoublyLinkedList {
 const linkedList = new DoublyLinkedList();
 linkedList.addNod(10);
 linkedList.addNod(20);
-// linkedList.addNod(30);
-// linkedList.addNod(50);
+linkedList.addNod(30);
+linkedList.addNod(50);
 linkedList.removeNode(10);
-// linkedList.addNod(60);
-
-// linkedList.insertAfter(40, 30);
+linkedList.addNod(60);
+linkedList.insertAfter(40, 30);
 linkedList.printNodesWithLinks();
